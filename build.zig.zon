@@ -1,0 +1,22 @@
+.{
+    .name = .wiskdb,
+    .version = "0.1.0",
+    .fingerprint = 0xace20c8274ffc853,
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{
+        .zlap = .{
+            .url = "git+https://github.com/lovez-dev/zlap.git#a5a8149c80900eab4058c570c1bc9c63a54ae68b",
+            .hash = "zlap-0.1.0-o7HR1PiEAAAVAHF0gTcqp9tLjQWaK7dTI35SN55n_Ggb",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tests",
+        "examples",
+        "bench",
+        "README.md",
+        "LICENSE",
+    },
+}
